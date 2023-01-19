@@ -1,8 +1,10 @@
-import React from 'react';
+import Button from 'src/components/Button/Button';
 
 const Header = () => {
     return {
-        <div>
+        <div className={'header'}>
+            <Button>Жабу1</Button>
+            <span className={'username'}></span>
         </div>
     };
 };
