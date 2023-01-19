@@ -3,6 +3,8 @@ import './App.css';
 
 
 function App() {
+  const {onToggleButton, tg} = useTelegram();
+
     useEffect(() => {
         tg.ready();
       }, []);
@@ -10,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <h1>Бари истеп тур!!! Тамаша!</h1>
-      <button onClick={onClose}>Жабу</button>
+      <button onClick={onToggleButton}>Toggle</button>
     </div>
   );
 }
