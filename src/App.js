@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import './components/Header/Header.css';
 import {Form, Route, Routes} from 'react-router-dom';
 import ProductList from './components/ProductList/ProductList';
-import Form from "./componentes/form/Form";
+
 
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route index element={<ProductList />} />
-        <Route path={'form'} element={<Form />} /> 
+        <Route index element={<ProductList />}/>
+        <Route path={'form'} element={<Form />}/> 
       </Routes>
       <h1>Бари истеп тур!!! Тамаша!</h1>
       
