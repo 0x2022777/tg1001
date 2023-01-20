@@ -23,7 +23,7 @@ function App() {
         <Route index element={<ProductList />}/>
         <Route path={'form'} element={<Form />}/> 
       </Routes>
-      <h1>Бари истеп тур!!! Тамаша!</h1>
+      
       
     </div>
   );
