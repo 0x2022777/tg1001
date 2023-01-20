@@ -4,7 +4,7 @@ import './Form.css';
 const Form = () => {
     return (
         <div>
-            You are in Form page.
+            <h2>You are in Form page.</h2>
         </div>
     );
 };
