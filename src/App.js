@@ -3,7 +3,7 @@ import {useEffect} from "react";
 import {useTelegram} from "./components/hooks/useTelegram";
 import Header from './components/Header/Header';
 import './components/Header/Header.css';
-
+import {Route, Routes} from 'react-router-dom';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Header />
       <h1>Бари истеп тур!!! Тамаша!</h1>
-      <button onClick={onToggleButton}>Toggle</button>
+      
     </div>
   );
 }
