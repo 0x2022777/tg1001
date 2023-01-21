@@ -1,5 +1,5 @@
 const tg = window.Telegram.WebApp;
-
+import {Route, Routes} from 'react-router-dom';
 
 export function useTelegram() {
     const onClose = () => {
