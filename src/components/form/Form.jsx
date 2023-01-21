@@ -22,12 +22,16 @@ const Form = () => {
         <div className={"form"}>
             <h2>Өзіңізді деректеріңізді енгізіңіз.</h2>
             <input 
-                className={'input'} type="text" placeholder={'Мемлекет'}
+                className={'input'} 
+                type="text" 
+                placeholder={'Мемлекет'}
                 value={country}
                 onChange={onChangeCountry}
             />
             <input 
-                className={'input'} type="text" placeholder={'Көше'}
+                className={'input'} 
+                type="text" 
+                placeholder={'Көше'}
                 value={street}
                 onChange={onChangeStreet}
             />
