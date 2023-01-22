@@ -6,6 +6,7 @@ import './components/Header/Header.css';
 import {Route, Routes} from 'react-router-dom';
 import ProductList from './components/ProductList/ProductList';
 import Form from './components/form/Form';
+import Akparat from './components/Akparat/Akparat';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route index element={<ProductList />}/>
         <Route path={'form'} element={<Form />}/> 
+        <Route path={'akparat'} element={<Akparat />}/> 
       </Routes>
     </div>
   );
